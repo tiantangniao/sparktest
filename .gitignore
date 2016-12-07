@@ -1,0 +1,16 @@
+.gitignore
+/target/
+
+/.settings
+/.classpath
+
+.project
+
+
+# idea project config files
+
+*.iml
+
+.idea
+
+*.log
