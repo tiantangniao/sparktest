@@ -35,11 +35,11 @@ object sparkclient {
 
 
     //val midlledetail=sidgrouplines.reduceByKeyAndWindow((c1:String,c2:String)=>c1+"??"+c2, Seconds(12),Seconds(1)).map(line=>line._2)
-    val dance3=new  PreReduceWindowDStream(sidgrouplines, (c1:String,c2:String)=>c1+"??"+c2,Seconds(12), Seconds(1))
+    //val dance3=new  PreReduceWindowDStream(sidgrouplines, (c1:String,c2:String)=>c1+"??"+c2,Seconds(12), Seconds(1))
     //val dance3=new  PreWindowDStream(sidgrouplines, Seconds(12), Seconds(1))
 
 
-    dance3.foreachRDD(rdd => println("#########"+rdd.count()))
+   // dance3.foreachRDD(rdd => println("#########"+rdd.count()))
     //PreWindowDStream
 
 

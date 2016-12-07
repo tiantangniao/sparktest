@@ -1,6 +1,6 @@
 package com.bj58
 
-import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark._
 //import org.joda.time.DateTime
 
 /**

@@ -1,4 +1,5 @@
 package com.bj58
+
 import collection.JavaConverters._
 import com.bj58.javautils.JsonData
 import kafka.serializer.StringDecoder
